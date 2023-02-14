@@ -14,7 +14,7 @@ class Screen3 extends StatelessWidget {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              Text(
+              const Text(
                 "Camp Yellow",
                 style: TextStyle(
                     color: Colors.black,
@@ -22,7 +22,7 @@ class Screen3 extends StatelessWidget {
                     fontFamily: "Inter",
                     fontWeight: FontWeight.w400),
               ),
-              Text(
+              const Text(
                 "practice. learn. compete.",
                 style: TextStyle(
                     color: Colors.black,
@@ -34,7 +34,7 @@ class Screen3 extends StatelessWidget {
               Padding(
                 padding:  EdgeInsets.symmetric(horizontal:screenWidth/15),
                 child: TextFormField(
-                  decoration: InputDecoration(
+                  decoration: const InputDecoration(
                       hintText: "search events by area",
                       hintStyle: TextStyle(
                         color: Colors.grey,
@@ -61,7 +61,7 @@ class Screen3 extends StatelessWidget {
                 onPressed: () {},
                 child: Padding(
                   padding:  EdgeInsets.symmetric(horizontal: screenHeight/12, vertical: screenWidth/ 80),
-                  child: Text(
+                  child: const Text(
                     "LOGIN",
                     style: TextStyle(
                       fontFamily: "Inter" ,

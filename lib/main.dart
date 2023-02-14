@@ -1,4 +1,4 @@
-import 'package:campyellow/screen1.dart';
+import 'package:campyellow/screens/screen1.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       debugShowCheckedModeBanner: false,
-      home: Screen1(),
+      home: const Screen1(),
     );
   }
 }
