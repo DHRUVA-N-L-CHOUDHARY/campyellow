@@ -1,4 +1,3 @@
-import 'package:campyellow/utils/size_config.dart';
 import 'package:flutter/material.dart';
 
 class Screen3 extends StatelessWidget {
@@ -6,7 +5,7 @@ class Screen3 extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-      final double screenHeight = MediaQuery.of(context).size.height;
+    final double screenHeight = MediaQuery.of(context).size.height;
     final double screenWidth = MediaQuery.of(context).size.width;
     return Scaffold(
       body: SafeArea(
@@ -32,7 +31,7 @@ class Screen3 extends StatelessWidget {
               ),
               Image.asset("lib/assets/img1.png"),
               Padding(
-                padding:  EdgeInsets.symmetric(horizontal:screenWidth/15),
+                padding: EdgeInsets.symmetric(horizontal: screenWidth / 15),
                 child: TextFormField(
                   decoration: const InputDecoration(
                       hintText: "search events by area",
@@ -52,7 +51,7 @@ class Screen3 extends StatelessWidget {
                 ),
               ),
               SizedBox(
-                height: screenHeight/15,
+                height: screenHeight / 15,
               ),
               TextButton(
                 style: TextButton.styleFrom(
@@ -60,11 +59,13 @@ class Screen3 extends StatelessWidget {
                 ),
                 onPressed: () {},
                 child: Padding(
-                  padding:  EdgeInsets.symmetric(horizontal: screenHeight/12, vertical: screenWidth/ 80),
+                  padding: EdgeInsets.symmetric(
+                      horizontal: screenHeight / 12,
+                      vertical: screenWidth / 80),
                   child: const Text(
                     "LOGIN",
                     style: TextStyle(
-                      fontFamily: "Inter" ,
+                      fontFamily: "Inter",
                       color: Colors.white,
                       fontSize: 24,
                     ),
