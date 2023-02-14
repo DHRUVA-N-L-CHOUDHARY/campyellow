@@ -13,6 +13,9 @@ class Screen3 extends StatelessWidget {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
+              SizedBox(
+                height: screenHeight/10,
+              ),
               const Text(
                 "Camp Yellow",
                 style: TextStyle(
