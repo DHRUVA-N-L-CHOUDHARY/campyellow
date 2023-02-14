@@ -41,7 +41,7 @@ class _Screen2State extends State<Screen2> with SingleTickerProviderStateMixin {
             var end = Offset.zero;
             var tween = Tween(begin: begin, end: end);
             var offsetAnimation = animation.drive(tween);
-            CurvedAnimation(parent: offsetAnimation, curve: Curves.easeInOut)
+            // CurvedAnimation(parent: offsetAnimation, curve: Curves.easeInOut)
             return SlideTransition(position: offsetAnimation, child: Screen3());
           },
         ),
